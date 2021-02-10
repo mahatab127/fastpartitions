@@ -1,0 +1,267 @@
+body{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 15px;
+}
+/* common */
+h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+h2{
+    font-size: 24px;
+    font-weight: 400;
+}
+h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+p{
+    font-size: 15px;
+}
+.btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.0);
+}
+
+
+/* header top */
+.font-w,a{
+    font-weight: 500;
+    color: #333
+}
+.header-top a{
+    color: #cc0000;
+}
+.header-top a:hover{
+    color: #333;
+    text-decoration: none;
+}
+.header-btn a{
+    color: #fff;
+    background: #cc0000;
+    padding: 3px 17px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+.header-btn a:hover{
+    color: #fff;
+    background: #333;
+}
+.header-nav .nav-link{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #333;
+    font-size: 15px;
+
+}
+.header-nav .nav-link:hover{
+    color: #cc0000;
+}
+
+/* Slider */
+.slider{
+    width: 100%;
+    background-color: #f7f6f6;
+    border-top: 1px solid #f2f2f2;
+}
+.nav-item i{
+    color: #cc0000;
+}
+.slider .nav-item{
+ font-size: 18px;
+ color: #666;
+ font-weight: 400;
+ padding: 2px 0px;
+}
+.buttons .btn-lg-1{
+    width: 400px;
+    padding: 14px 0px;
+    background-color: #cc0000;
+    color: #fff;
+    border-radius: 60px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.buttons .btn-lg-1:hover{
+    background-color: #333;
+    color: #fff;
+}
+.order-btn{
+    padding: 14px 45px;
+    color: #cc0000;
+    border-radius: 60px;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid #cc0000;
+}
+.order-btn:hover{
+    background: #333;
+    border: 1px solid transparent;
+    color: #fff;
+}
+.upload-btn{
+    padding: 14px 45px;
+    color: #cc0000;
+    border-radius: 60px;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid #cc0000;
+}
+.upload-btn:hover{
+    background: #333;
+    border: 1px solid transparent;
+    color: #fff;
+}
+
+/*intro */
+.intro-img img{
+    width: 100%;
+    height: auto;
+}
+.intro-title{
+    font-size: 36px;
+}
+.intro .intro-content-title{
+    line-height: 25px;
+}
+.intro .nav-item{
+    font-size: 18px;
+    color: #666;
+    font-weight: 400;
+    padding: 2px 0px;
+}
+/* promo */
+.promo{
+    background: #EFEFF0;
+}
+.promo-title{
+    font-size: 36px;
+}
+.promo .intro-content-title{
+    line-height: 16px;
+}
+.promo P{
+    color: #999;
+    line-height: 25px;
+}
+.promo-content-title{
+    font-size: 16px;
+}
+.promo-2{
+    background: #fff;
+}
+.promo-left-btn{
+    padding: 10px 25px;
+    color: #fff;
+    border-radius: 60px;
+    font-size: 14px;
+    font-weight: 400;
+    background: #cc0000;
+}
+.promo-left-btn:hover{
+    background: #333;
+    color: #fff;
+}
+.promo-right-btn{
+    padding: 10px 30px;
+    color: #cc0000;
+    border-radius: 60px;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid #cc0000;
+}
+.promo-right-btn:hover{
+    background: #333;
+    color: #fff;
+    border: 1px solid transparent;
+}
+.promo-2 P{
+    color: #999;
+    line-height: 25px;
+}
+
+/* Blog */
+.blog .blog-heading{
+    font-size: 36px;
+}
+.blog .blog-heading-title{
+    color: #666;
+}
+.blog .all-blog-link a{
+    color: #cc0000;
+    font-weight: 400;
+}
+.blog-image img{
+    width: 255px;
+}
+.blog .blog-content-title{
+    font-size: 16px;
+}
+.blog .blog-date{
+    color: #999;
+}
+.blog .blog-description{
+    color: #666;
+    line-height: 20px;
+}
+.blog .blog-btn{
+    padding: 5px 25px;
+    color: #fff;
+    border-radius: 60px;
+    font-size: 14px;
+    font-weight: 400;
+    background: #cc0000;
+}
+.blog .blog-btn:hover{
+    background: #333;
+    color: #fff;
+}
+/* Footer */
+footer{
+    background: #EFEFF0;
+}
+.footer-logo img{
+    width: 90px;
+}
+.footer-nav-item .nav-link{
+    color: #666;
+    font-size: 13px;
+    padding: 0px;
+    margin: 0px 10px;
+    font-weight: 400;
+}
+.footer-nav-item .nav-link:hover{
+    color: #cc0000;
+}
+.footer-social-icon .nav-link{
+    padding: 10px;
+}
+.footer-social-icon .fa{
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    color: #333;
+    font-size: 24px;
+    border-radius: 50px;
+    border: 1px solid #666;
+    text-align: center;
+    line-height: 45px;
+    cursor: pointer;
+}
+.footer-social-icon .fa:hover{
+    background: #cc0000;
+    color: #fff;
+    border: 1px solid transparent;
+}
+.copy-right-text p{
+    color: #999;
+    font-size: 13px;
+}
+.copy-right-text a{
+    color: #999;
+    font-weight: 400;
+}
+.copy-right-text a:hover{
+    color: #cc0000;
+    text-decoration: none;
+}
